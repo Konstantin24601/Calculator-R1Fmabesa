@@ -4,8 +4,8 @@ public class keksiki {
     public static String[] strings;
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int a = scan.nextInt();
-        strings = new String[a];
+        int b = scan.nextInt();
+        strings = new String[b];
         for (int i = 0; i < strings.length; i++) {
             strings[i] = scan.nextLine();
         }
